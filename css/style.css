@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #aaa;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    width: 800px;
+    height: 560px;
+    background-color: #1f1f1f;
+    box-shadow: 1px 3px 20px #0d001f;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+form {
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-size: 1.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #b4b4b4;
+}
+
+.hospedagem {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.hospedagem div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    outline: none;
+    border-radius: 4px;
+    padding: 10px;
+    border: solid 2px #ccc;
+    transition: 0.7s ease;
+}
+
+input:focus {
+    border-color: #6900fc;
+}
+
+button {
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    background-color: #6900fc;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    width: 120px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+button:hover {
+    color: #6900fc;
+    background-color: #aaa;
+    border-color: #6900fc;
+    box-shadow: 0px 0px 6px #6900fc;
+}
+
+.checkbox {
+    font-size: 16px;
+}

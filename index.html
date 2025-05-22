@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Estudo_Formulario</title>
+</head>
+<body>
+
+    <main>
+        
+        <div id="container">
+            
+            <img src="img/Hotel.png" alt="Hotel">
+
+            <form action="#" method="post">
+                
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+                
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Seu melhor email" required>
+                
+                <label for="cpf">CPF</label>
+                <input type="text" name="senha" id="cpf" placeholder="000.000.000-00" required>
+
+                <div class="hospedagem">
+                    <div> 
+                        <label for="date">Check-in</label>
+                        <input type="date" name="chegada" id="Check-in" required>
+                    </div>
+                    
+                    <div>
+                        <label for="date">Check-out</label>
+                        <input type="date" name="saida" id="Check-out">
+                    </div>
+
+                </div>
+
+                <div class="checkbox">
+                    <label  for="termos" class="checkbox">
+                    <input type="checkbox" id="termos" name="termos" required>
+                    Aceito os termos e condições da empresa.
+                    </label>
+
+                    <label  for="novidades" class="checkbox">
+                    <input type="checkbox" id="novidades" name="novidades">
+                    Quer receber novidades sobre nós?
+                    </label>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+        </div>
+
+    </main>
+</body>
+</html>
